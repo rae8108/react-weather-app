@@ -6,7 +6,7 @@ export default function App() {
       <h1>Weather App</h1>
 
       <footer>
-        This project was created by Rayan and is
+        This project was created by Rayan and is{" "}
         <a
           href="https://github.com/rae8108/react-weather-app"
           target="_blank"
