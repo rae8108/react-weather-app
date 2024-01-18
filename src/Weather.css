@@ -23,3 +23,26 @@
   line-height: 1.5;
   list-style: none;
 }
+
+.Weather img {
+  height: 64px;
+  margin-right: 2px;
+  display: inline-block;
+  margin-top: -32px;
+}
+
+.Weather .temperature {
+  font-weight: bold;
+  color: palevioletred;
+  font-size: 64px;
+  line-height: 64px;
+}
+
+.Weather .unit {
+  font-size: 12px;
+  font-weight: 400;
+  position: relative;
+  line-height: 1;
+  top: -34px;
+  margin-left: 3px;
+}
