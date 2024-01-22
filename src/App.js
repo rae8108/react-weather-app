@@ -15,6 +15,14 @@ export default function App() {
             rel="noreferrer"
           >
             open-sourced on Github
+          </a>{" "}
+          and hosted on{" "}
+          <a
+            href="https://glittering-froyo-25c68f.netlify.app/"
+            target="_blank"
+            rel="noreferrer"
+          >
+            Netlify
           </a>
         </footer>
       </div>
