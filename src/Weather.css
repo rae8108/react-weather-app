@@ -1,15 +1,48 @@
+body {
+  background-image: linear-gradient(
+    to left,
+    #e1aebc,
+    #e8c1c5,
+    #e6b9c1,
+    #e3b1be,
+    #dba2ba,
+    #d599b6
+  );
+}
+
 .Weather {
-  font-family: arial, sans-serif;
-  padding: 16px;
-  margin: 30px auto;
+  font-family: "Courier New", Courier, monospace;
+  padding: 21px;
+  margin: 70px auto;
+  margin-bottom: 25px;
   max-width: 600px;
   border-radius: 5px;
-  border: 2px solid palevioletred;
+  border: 3px solid palevioletred;
+  background-image: linear-gradient(
+    to right top,
+    #e8c1c5,
+    #e6b9c1,
+    #e3b1be,
+    #dfa9bb,
+    #dba2ba,
+    #d599b6,
+    #ce90b3,
+    #c687b1,
+    #ba7aac,
+    #ae6da8,
+    #a060a5,
+    #9055a2
+  );
+}
+
+.Weather .form-control {
+  border: 2px solid #9055a2;
 }
 
 .Weather h1 {
-  color: palevioletred;
+  color: #212529;
   margin-top: 20px;
+  font-weight: lighter;
 }
 
 .Weather ul {
@@ -39,23 +72,26 @@
 }
 
 .Weather .unit {
-  font-size: 14px;
+  font-size: 18px;
   font-weight: 400;
   position: relative;
   line-height: 1;
-  top: -34px;
+  top: -39px;
   margin-left: 3px;
 }
-
-.Weather .unit a {
-  text-decoration: none;
-  color: palevioletred;
+.Weather .btn-btn-primary {
+  background-color: #c688b0;
+  border: 2px solid #9055a2;
+  border-radius: 4px;
+  padding: 6px;
 }
 
-.Weather .btn-btn-primary {
-  color: white;
-  background-color: palevioletred;
-  border: 2px solid rgb(227, 13, 227);
-  padding: 4px;
-  border-radius: 3px;
+.Weather .btn-btn-primary:hover {
+  color: #9055a2;
+  background-color: pink;
+  border: 2px solid #9055a2;
+}
+
+.App .footer {
+  font-size: 12px;
 }

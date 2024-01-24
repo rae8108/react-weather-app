@@ -47,7 +47,7 @@ export default function Weather(props) {
                 placeholder="Enter a city"
                 className="form-control"
                 autoFocus="on"
-                style={{ boxShadow: "0 0 3px palevioletred" }}
+                style={{ boxShadow: "0 0 3px #9055a2" }}
                 onChange={handleCityChange}
               />
             </div>
